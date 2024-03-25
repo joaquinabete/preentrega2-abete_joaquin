@@ -9,3 +9,7 @@
 1) Se hizo Responsive el Formulario de Contacto.
 2) Estan listas las dos paginas (Albumes y Contacto) 100% Responsive.
 3) Albumes tiene Bootstrap y Media Queries Normales.
+
+/* TERCER COMMIT DE LA SEGUNDA PREENTREGA */
+
+1) Se actualizaron los estilos de los botones en la pagina de Contacto.
