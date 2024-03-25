@@ -36,45 +36,40 @@
   </nav>
 
     <main>
-        <!-- Formulario con Bootstrap -->
+      
+      <section class="form">
+        <form class="form__container" action="datos.php" method="post" enctype="text/plain">
+          <h3 class="form__title">Registrate Aqui</h3>
+          
+            <div class="form__content"> 
+              <label class="form__label" for="nombre">Nombre:</label>
+              <input class="form__input" type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre" required>
+            </div>
 
-        <div class="container-md mx-auto">
-          <div class="row mg-4">
-              <div class="col-4 w-60">
-                  <form action="datos.php" method="post">
-                     <h3 class="display-5">Registrate</h3>
+            <div class="form__content">
+              <label class="form__label" for="apellido">Apellido:</label>
+              <input class="form__input" type="text" id="apellido" name="name" placeholder="Ingrese su Apellido" required>
+            </div>
 
-                    <div class="mb-2">
-                      <label class="form-label" for="name">Nombre:</label>
-                      <input class="form-control" type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
-                    </div>
+            <div class="form__content">
+              <label class="form__label" for="email">Correo Electronico:</label>
+              <input class="form__input" type="email" name="email" placeholder="Ingrese su Correo Electronico" required>
+            </div>
 
-                    <div class="mb-2">
-                      <label class="form-label" for="name">Apellido:</label>
-                      <input class="form-control" type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
-                    </div>
+            <div class="form__content">
+              <label class="form__label" for="contraseña">Contraseña:</label>
+              <input class="form__input" type="password" id="contraseña" name="contraseña" placeholder="Ingrese su Contraseña" required>
+            </div>
 
-                    <div class="mb-2">
-                      <label class="form-label" for="name">Correo Electronico:</label>
-                      <input class="form-control" type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
-                    </div>
-
-                    <div class="mb-3">
-                      <label class="form-label" for="name">Contrseña:</label>
-                      <input class="form-control" type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
-                    </div>
-
-                    <div class="form-check mb-3">
-                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                      <label class="form-check-label" for="flexCheckDefault">¿Aceptas los Terminos y Condiciones de uso?</label>
-                    </div>
-
-                    <button type="submit" class="btn btn-primary btn-block">Enviar</button>
-
-                  </form>
+            <div class="form__terms">
+                <p class="form__text"><input class="form__checkbox" type="checkbox"> Estoy de acuerdo con los Terminos y Condiciones</p>
+                <div class="form__buttons">
+                  <button class="button form__button form__button--primary" type="submit">Register</button>
+                  <button class="button form__button form__button-secondary" type="submit">Login</button>
               </div>
           </div>
-      </div>
+      </form>
+    </section>
     </main>
 
     <!-- Footer Bootstrap -->
