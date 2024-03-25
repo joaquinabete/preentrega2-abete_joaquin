@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ce57f5eea0.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../assets/images/home/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Trotsky Vengaran - Contactos</title>
+</head>
+<body>
+
+    <!-- Header Bootstrap -->
+
+    <nav class="navbar navbar-expand-lg header__background">
+      <div class="container-fluid">
+        <a href="./contacto.html"><img class="header__image" src="../assets/images/home/logo.jpg" alt="logo de la pagina"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-lg-0 mx-auto">
+            <li class="nav-item"><a class="nav-link nav-link-edit" href="../index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-edit" href="../pages/integrantes.html">Integrantes</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-edit" href="../pages/albumes.html">Albumes</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-edit" href="../pages/historia.html">Historia</a></li>
+            <li class="nav-item"><a class="nav-link nav-link-edit" href="../pages/contacto.html">Contacto</a></li>
+          </ul>
+          <form class="d-flex gap-3" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+      <main>
+        <section class="form">
+          <form class="form__container" action="datos.php" method="post" enctype="text/plain">
+            <h3 class="form__title">Registrate Aqui</h3>
+            
+              <div class="form__content"> 
+                <label class="form__label" for="nombre">Nombre:</label>
+                <input class="form__input" type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre" required>
+              </div>
+
+              <div class="form__content">
+                <label class="form__label" for="apellido">Apellido:</label>
+                <input class="form__input" type="text" id="apellido" name="name" placeholder="Ingrese su Apellido" required>
+              </div>
+
+              <div class="form__content">
+                <label class="form__label" for="email">Correo Electronico:</label>
+                <input class="form__input" type="email" name="email" placeholder="Ingrese su Correo Electronico" required>
+              </div>
+
+              <div class="form__content">
+                <label class="form__label" for="contraseña">Contraseña:</label>
+                <input class="form__input" type="password" id="contraseña" name="contraseña" placeholder="Ingrese su Contraseña" required>
+              </div>
+
+              <div class="form__terms">
+                  <p class="form__text"><input class="form__checkbox" type="checkbox"> Estoy de acuerdo con los Terminos y Condiciones</p>
+                  <div class="form__buttons">
+                    <button class="button form__button form__button--primary" type="submit">Register</button>
+                    <button class="button form__button form__button-secondary" type="submit">Login</button>
+                </div>
+            </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- Footer Bootstrap -->
+    <div class="container-fluid">
+      <div class="row p-5 footer__background">
+
+        <div class="col-xs-12 col-md-6 col-lg-3 mx-auto"> 
+          <a href="../pages/albumes.html"><img class="footer__logo" src="../assets/images/footer/logo-footer.jpg" alt="logo de la banda"></a>
+          <h3 class="footer__title">Trotsky Vengaran</h3>
+          <p class="footer__text">Adéntrate en el universo del Punk Rock con Trotsky Vengaran y descubre un sinfín de emociones a través de la música y el entretenimiento de los shows en vivo. Deja que los artistas más influyentes de la banda te guíen por un viaje lleno de ritmo, pasión y locura!</p>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-2">
+          <div class="footer__content">
+            <ul class="footer__lists">
+            <h4 class="footer__subtitle">Redes Sociales</h4>
+            <a class="footer__links" href="https://www.youtube.com/@trotskyvengaran" target="_blank"><i class="fa-brands fa-youtube fa-lg footer__icons"></i>Youtube</a>
+            <a class="footer__links" href="https://www.instagram.com/trotskyvengaran/" target="_blank"><i class="fa-brands fa-instagram fa-xl footer__icons"></i>Instagram</a>
+            <a class="footer__links" href="https://www.facebook.com/TROTSKY.VENGARAN.official" target="_blank"><i class="fa-brands fa-facebook fa-lg footer__icons"></i>Facebook</a>
+            <a class="footer__links" href="https://twitter.com/trotskyvengaran?lang=es" target="_blank"><i class="fa-brands fa-twitter fa-lg footer__icons"></i>Twitter</a>
+        </ul>
+      </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-2">
+          <div class="footer__content">
+            <ul class="footer__lists">
+                <h4 class="footer__subtitle">Legales</h4>
+                <a class="footer__links" href="#">Aviso Legal</a>
+                <a class="footer__links" href="#">Politica de Privacidad</a>
+                <a class="footer__links" href="#">Politica de Cookies</a>
+                <a class="footer__links" href="#">Politica Editorial</a>
+              </ul>
+            </div>
+        </div>
+
+        <div class="col-xs-12 col-md-6 col-lg-4">
+          <div class="footer__content">
+            <ul class="footer__lists">
+                <h4 class="footer__subtitle">Contactanos</h4>
+                <a class="footer__links" href="#"><i class="fa-solid fa-phone fa-lg"></i>+598 123 456 789</a>
+                <a class="footer__links" href="https://bizarrorecords.com/category/trotsky-vengaran/" target="_blank"><i class="fa-solid fa-music fa-lg"></i>Contactate con nuestra Productora</a>
+                <a class="footer__links footer__links--spotify" href="https://open.spotify.com/intl-es/artist/6Hr2CvTnI7x9U3MyDH2zBk" target="_blank"><i class="fa-brands fa-spotify fa-lg"></i></i>Tema mas Relevante</a>
+                <a class="footer__links" href="#"><i class="fa-solid fa-location-dot fa-lg"></i>Montevideo, Uruguay</a>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer__copyright">
+          <hr class="footer__line">
+          <p class="footer__rights">Todos los derechos reservados &copy <strong class="footer__name">Joaquin Abete</strong></p>
+        </div>
+      </div>
+    </div>
+  <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
