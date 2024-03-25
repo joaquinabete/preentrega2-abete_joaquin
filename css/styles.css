@@ -110,7 +110,7 @@ body {
 
 /* Fin de CSS Hero */
 
-/* CSS Card Article Album */ /* CORREGIRLA CON FLEXBOX */
+/* CSS Card Article Album */ 
 
 .article {
     position: relative;
@@ -118,7 +118,7 @@ body {
     margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 100px;
-    height: 460px;
+    height: 550px;
     background-color: #000018;
 }
 
@@ -419,7 +419,6 @@ body {
 
 /* Inicio CSS Contacto (Responsive Normal) */
 
-
 .form {
     margin: 40px;
 }
@@ -586,14 +585,17 @@ body {
 
 .form__button--primary:hover {
     background-color: #401992;
+    color: wheat;
+    transition: all .6s;
 }
 
 .form__button-secondary:hover {
     background-color: #401992;
+    color: wheat;
+    transition: all .6s;
 }
 
 /* Fin de CSS Contacto (Responsive Normal) */
-
 
 /* Inicio CSS Seccion Integrantes */
 
@@ -615,7 +617,6 @@ body {
 
 .card-title {
     color: white;
-
 }
 
 .card-text {
