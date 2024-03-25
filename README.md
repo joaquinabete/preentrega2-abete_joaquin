@@ -13,3 +13,8 @@
 /* TERCER COMMIT DE LA SEGUNDA PREENTREGA */
 
 1) Se actualizaron los estilos de los botones en la pagina de Contacto.
+
+/* CUARTO COMMIT DE LA SEGUNDA PREENTREGA */
+
+1) Se corrigio los nombres de las clases en todos los Footers de la pagina.
+2) Se arreglo el Identado del codigo en todos los archivos index.
