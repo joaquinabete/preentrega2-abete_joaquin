@@ -182,50 +182,56 @@ body {
 /* CSS Card Article Album */ 
 
 .advertisement {
-    width: 60%;
+    max-width: 1200px;
     margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 30px;
-    box-shadow: 2px 2px 24px black;
-    background-color: #000018; 
+}
+
+.advertisement__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 80px;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 1px 1px 12px 1px black;
+    background-color: #000018;
+}
+
+.advertisement__texts {
+    display: flex;
+    flex-direction: column;
+    color: wheat;
 }
 
 .advertisement__title {
     font-size: 40px;
-    color: wheat;
-}
-
-.advertisement__title::selection {
-    color: #EBFF00;
 }
 
 .advertisement__text {
-    font-size: 22px;
-    color: wheat;
+    font-size: 20px;
 }
 
-.advertisement__text::selection {
-    color: #EBFF00;
-}
-
-.img-fluid {
-    margin-top: 40px;
-}
-
-.card__buttons {
+.advertisement__buttons {
     display: flex;
     gap: 30px;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
-.card__button {
-    padding: 12px 24px;
+.advertisement__button {
+    padding: 12px 50px;
+}
+ 
+.advertisement__image {
+    width: 350px;
+    height: 350px;
+    border-radius: 12px;
 }
 
 /* Fin CSS Card Article Album */
 
-/* Inicio Footer (Responsive con Bootstrap) */  /* Cambiar nombres de clases */
+/* Inicio Footer (Responsive con Bootstrap) */  
 
 .footer__background {
     background-color: #000000;
