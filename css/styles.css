@@ -659,43 +659,82 @@ body {
 
 /* Inicio CSS Seccion Integrantes */
 
-.card__bootstrap {
+.tarjeta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 40px;
+}
+
+.tarjeta__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 12px;
     background-color: #000018;
 }
 
-.card-img-top {
-    width: 250px;
-    height: 250px;
-    margin: 20px;
+.tarjeta__image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-.card-body {
+.tarjeta__title {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #EBFF00;
+}
+
+.tarjeta__text {
+    max-width: 200px;
+    text-align: center;
+    color: #EBFF00;
+}
+
+.acordeon {
     display: flex;
     flex-direction: column;
-    max-width: 300px;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;   
 }
 
-.card-title {
-    color: white;
+.acordeon__list {
+    width: 600px;
+    padding: 20px 40px;
+    border-radius: 12px;
+    animation-name: anomation-accordion;
+    transition: all .1s ease-in-out;
+    box-shadow: 1px 1px 12px 1px black;
+    background-color: #000018;
 }
 
-.card-text {
-    color: white;
+.acordeon__list:hover {
+    transform: scale(1.1);
 }
 
-.texts {
-    margin: 20px;
+.acordeon__title {
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(90, 190, 177);
 }
 
-.texts__title {
-    font-size: 36px;
-    font-weight: 400;
+.acordeon__title:hover {
+    color: #FFB800;
+    transition: all .2s ease-in-out;
 }
 
-.texts__description {
+.acordeon__text {
+    padding: 10px 0;
     font-size: 20px;
+    font-weight: 400;
+    color: #FFB800;
 }
-
 /* Fin de CSS Seccion Integrantes */
 
 /* Inicio CSS Seccion Historia */
