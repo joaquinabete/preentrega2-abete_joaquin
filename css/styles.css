@@ -707,9 +707,8 @@ body {
     width: 600px;
     padding: 20px 40px;
     border-radius: 12px;
-    animation-name: anomation-accordion;
-    transition: all .1s ease-in-out;
-    box-shadow: 1px 1px 12px 1px black;
+    transition: all .3s ease-in-out; /*cambio de confunsion de la animacion*/ /*borrado de la etiqueta animacion y modificacion de segundos de la transicion*/
+    box-shadow: 1px 1px 12px 1px black; 
     background-color: #000018;
 }
 
