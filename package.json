@@ -1,0 +1,19 @@
+{
+  "name": "sass-en-accion",
+  "version": "1.0.0",
+  "description": "Primer agregado de sass a las entregas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaquinabete/preentrega2-abete_joaquin.git"
+  },
+  "author": "Joaquin Abete",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaquinabete/preentrega2-abete_joaquin/issues"
+  },
+  "homepage": "https://github.com/joaquinabete/preentrega2-abete_joaquin#readme"
+}
