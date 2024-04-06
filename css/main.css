@@ -19,7 +19,7 @@ p, a {
 }
 
 body {
-  background: #DB9191;
+  background: #fc4f4f;
 }
 
 .navbar {
@@ -40,236 +40,63 @@ body {
 
 .nav-link {
   font-size: 24px;
-  color: white;
+  color: #fff;
 }
 
 .nav-link:hover {
-  color: #EBFF00;
+  color: #FFB800;
 }
 
-.hero {
-  background-image: url(../../assets/images/home/hero.jpg);
-  background-repeat: repeat;
-  background-size: cover;
-  background-position: center;
-  height: 900px;
+.footer { /*Primer Padre Footer*/
+  width: 100%;
 }
-
-@media (max-width: 1200px) {
-  .hero {
-    background-position: top, bottom;
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
+.footer .footer__background { /*Segundo Padre Footer Background*/
+  background-color: #030303;
 }
-.hero__title {
-  padding-top: 60px;
-  text-align: center;
-  font-size: 60px;
-  color: black;
+.footer .footer__background .footer__container { /*Padre Contenedor del primer Bloque*/
+  max-width: 30%;
 }
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .hero__title {
-    font-size: 42px;
-  }
-}
-@media (min-width: 640px) and (max-width: 768px) {
-  .hero__title {
-    font-size: 36px;
-  }
-}
-@media (min-width: 360px) and (max-width: 640px) {
-  .hero__title {
-    font-size: 22px;
-    padding-top: 40px;
-  }
-}
-.hero__title::selection {
-  color: #EBFF00;
-}
-
-.hero__span {
-  color: #EBFF00;
-}
-
-.hero__span::selection {
-  color: #000018;
-}
-
-.hero__buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 30px;
-}
-
-.hero__button--primary:hover {
-  background-color: #401992;
-  color: wheat;
-}
-
-.hero__button--secondary:hover {
-  background-color: #401992;
-  color: wheat;
-}
-
-.advertisement {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.advertisement__container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  margin: 80px;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 1px 1px 12px 1px black;
-  background-color: #000018;
-}
-
-.advertisement__texts {
-  display: flex;
-  flex-direction: column;
-  color: wheat;
-}
-
-.advertisement__title {
-  font-size: 40px;
-}
-
-.advertisement__text {
-  font-size: 20px;
-}
-
-.advertisement__image {
-  width: 350px;
-  height: 350px;
-  border-radius: 12px;
-}
-
-.button {
-  padding: 15px 30px;
-  cursor: pointer;
-  font-size: 20px;
-  font-weight: bold;
-  font-style: normal;
-  text-decoration: none;
-  border: none;
-  border-radius: 12px;
-  color: black;
-  background-color: #EBFF00;
-}
-
-/* Media Queries Botones del Index*/
-@media (min-width: 640px) and (max-width: 768px) {
-  .hero__buttons {
-    flex-direction: column;
-    max-width: 250px;
-    margin: 0 auto;
-    gap: 20px;
-    text-align: center;
-    margin-top: 60px;
-  }
-}
-@media (min-width: 360px) and (max-width: 640px) {
-  .hero__buttons {
-    flex-direction: column;
-    max-width: 200px;
-    margin: 0 auto;
-    gap: 15px;
-    text-align: center;
-    margin-top: 20px;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .button {
-    padding: 12px 20px;
-    margin-top: 40px;
-  }
-}
-@media (min-width: 640px) and (max-width: 768px) {
-  .button {
-    padding: 8px 12px;
-    font-size: 18px;
-  }
-}
-@media (min-width: 360px) and (max-width: 640px) {
-  .button {
-    padding: 6px 10px;
-    font-size: 14px;
-  }
-}
-/*Modificacion de Botones de la Card del Index*/
-.advertisement__buttons {
-  display: flex;
-  gap: 30px;
-  margin-top: 10px;
-}
-
-.advertisement__button {
-  padding: 12px 50px;
-}
-
-.footer__background {
-  background-color: #000000;
-}
-
-.footer__logo {
+.footer .footer__background .footer__container .footer__logo {
   width: 120px;
   height: 120px;
   border-radius: 50%;
 }
-
-.footer__title {
+.footer .footer__background .footer__container .footer__title {
   font-size: 40px;
   font-weight: 600;
   margin-top: 15px;
   color: white;
 }
-
-.footer__title::selection {
+.footer .footer__background .footer__container .footer__title::selection {
   color: #EBFF00;
 }
-
-.footer__text {
+.footer .footer__background .footer__container .footer__text {
   margin-top: 15px;
   font-size: 20px;
   color: white;
 }
-
-.footer__text::selection {
+.footer .footer__background .footer__container .footer__text::selection {
   color: #EBFF00;
 }
-
-.footer__content {
+.footer .footer__background .footer__content { /*Todos los contenedores hijos*/
   display: flex;
   flex-direction: column;
   margin-top: 120px;
 }
-
-.footer__subtitle {
-  font-size: 32px;
-  color: white;
-}
-
-.footer__subtitle::selection {
-  color: #EBFF00;
-}
-
-.footer__lists {
+.footer .footer__background .footer__content .footer__lists {
   display: flex;
   flex-direction: column;
   gap: 14px;
   margin-top: 15px;
 }
-
-.footer__links {
+.footer .footer__background .footer__content .footer__subtitle {
+  font-size: 32px;
+  color: white;
+}
+.footer .footer__background .footer__content .footer__subtitle::selection {
+  color: #EBFF00;
+}
+.footer .footer__background .footer__content .footer__links {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -278,44 +105,35 @@ body {
   font-size: 22px;
   color: white;
 }
-
-.footer__links::selection {
+.footer .footer__background .footer__content .footer__links::selection {
   color: #DB9191;
 }
-
-.footer__links:hover {
+.footer .footer__background .footer__content .footer__links:hover {
   opacity: 0.8;
   color: #FFB800;
 }
-
-.footer__links--spotify:hover {
+.footer .footer__background .footer__content .footer__links--spotify:hover {
   color: rgb(87, 252, 87);
 }
-
-.footer__copyright {
+.footer .footer__background .footer__copyright { /*Ultimo Contenedor de Terminos y Condiciones*/
   text-align: center;
 }
-
-.footer__line {
+.footer .footer__background .footer__copyright .footer__line {
   color: white;
 }
-
-.footer__rights {
+.footer .footer__background .footer__copyright .footer__rights {
   margin-top: 25px;
   font-size: 18px;
   cursor: pointer;
   color: #FFB800;
 }
-
-.footer__rights:hover {
+.footer .footer__background .footer__copyright .footer__rights:hover {
   color: white;
 }
-
-.footer__rights::selection {
+.footer .footer__background .footer__copyright .footer__rights::selection {
   color: #DB9191;
 }
-
-.footer__name::selection {
+.footer .footer__background .footer__copyright .footer__name::selection {
   color: #DB9191;
 }
 

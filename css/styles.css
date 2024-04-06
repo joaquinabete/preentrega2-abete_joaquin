@@ -48,7 +48,7 @@
 
 /* Inicio CSS Hero */
 
-/*.hero {
+.hero {
     background-image: url(../assets/images/home/hero.jpg);
     background-repeat: repeat;
     background-size: cover;
@@ -174,13 +174,13 @@
 .hero__button--secondary:hover {
     background-color: #401992;
     color: wheat;
-} */
+} 
 
 /* Fin de CSS Hero */
 
 /* CSS Card Article Album */ 
 
-/*.advertisement {
+.advertisement {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -226,14 +226,14 @@
     width: 350px;
     height: 350px;
     border-radius: 12px;
-}*/
+}
 
 /* Fin CSS Card Article Album */
 
 /* Inicio Footer (Responsive con Bootstrap) */  
 
-/*.footer__background {
-    background-color: #000000;
+.footer__background {
+    background-color: #030303;
 }
 
 .footer__logo {
@@ -269,6 +269,13 @@
     margin-top: 120px;
 }
 
+.footer__lists {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 15px;
+}
+
 .footer__subtitle {
     font-size: 32px;
     color: white;
@@ -276,13 +283,6 @@
 
 .footer__subtitle::selection {
     color: #EBFF00;
-}
-
-.footer__lists {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    margin-top: 15px;
 }
 
 .footer__links {
@@ -333,7 +333,7 @@
 
 .footer__name::selection {
     color: #DB9191;
-} */
+} 
 
 /* Fin CSS Footer (Responsive con Bootstrap) */
 
@@ -375,8 +375,7 @@
     justify-content: center;
     gap: 40px;
     padding: 30px;
-    
-}
+} 
 
 @media (min-width: 768px) and (max-width: 1024px) {  
 
@@ -472,7 +471,7 @@
     display: inline-block;
     margin-top: 12px;
     padding: 15px 40px;
-}
+} 
 
 /* Fin de CSS Albumes (Responsive Normal) */
 
@@ -706,7 +705,7 @@
     width: 600px;
     padding: 20px 40px;
     border-radius: 12px;
-    transition: all .3s ease-in-out; /*cambio de confunsion de la animacion*/ /*borrado de la etiqueta animacion y modificacion de segundos de la transicion*/
+    transition: all .3s ease-in-out;
     box-shadow: 1px 1px 12px 1px black; 
     background-color: #000018;
 }
