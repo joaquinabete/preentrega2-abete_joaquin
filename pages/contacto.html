@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/ce57f5eea0.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="../assets/images/home/logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>Trotsky Vengaran - Contactos</title>
 </head>
 <body>
@@ -37,6 +37,43 @@
         </div>
       </div>
     </header>
+
+    <main>
+      <section class="form">
+        <form class="form__container" action="datos.php" method="post" enctype="text/plain">
+          <h3 class="form__title">Registrate Aqui</h3>
+          
+            <div class="form__content"> 
+              <label class="form__label" for="nombre">Nombre:</label>
+              <input class="form__input" type="text" id="nombre" name="nombre" placeholder="Ingrese su Nombre" required>
+            </div>
+
+            <div class="form__content">
+              <label class="form__label" for="apellido">Apellido:</label>
+              <input class="form__input" type="text" id="apellido" name="name" placeholder="Ingrese su Apellido" required>
+            </div>
+
+            <div class="form__content">
+              <label class="form__label" for="email">Correo Electronico:</label>
+              <input class="form__input" type="email" name="email" placeholder="Ingrese su Correo Electronico" required>
+            </div>
+
+            <div class="form__content">
+              <label class="form__label" for="contraseña">Contraseña:</label>
+              <input class="form__input" type="password" id="contraseña" name="contraseña" placeholder="Ingrese su Contraseña" required>
+            </div>
+
+            <div class="form__terms">
+                <p class="form__text"><input class="form__checkbox" type="checkbox"> Estoy de acuerdo con los Terminos y Condiciones</p>
+                <div class="form__buttons">
+                  <button class="button form__button form__button--primary" type="submit">Register</button>
+                  <button class="button form__button form__button-secondary" type="submit">Login</button>
+              </div>
+          </div>
+      </form>
+    </section>
+  </main>
+
 
     <footer class="container-fluid footer">
       <div class="row p-5 footer__background">
